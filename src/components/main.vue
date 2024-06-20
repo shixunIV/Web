@@ -25,10 +25,8 @@
 </section>
 
 <div id="wrapper">
-    <div id="main">
     <!-- 声明路由占位标签 -->
-      <router-view></router-view>
-    </div>
+    <router-view id="main_content"></router-view>
 
     <section id="footer">
       <div class="container">
@@ -74,6 +72,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  #main_content{
+    margin-left: -41.5px;
+    width: 910px;
+    height: 20%;
+    background-color: rgb(224, 240, 255);
   }
 
 </style>
